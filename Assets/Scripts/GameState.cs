@@ -12,22 +12,23 @@ public class GameState : MonoBehaviour
 
         public GameStateChangDelegate(IApplicationStateStack<AppState> stateStack)
         {
+            Debug.Log("GameStateChangDelegate");
             stateStack.AddDelegate(this);
         }
 
         public void OnApplicationStateWillChanged(StackOperationEvent<AppState> e)
         {
-            
+            Debug.Log("OnApplicationStateWillChanged");
         }
 
         public void ApplicationStateChangeProgressChanged(float progress, StackChangeEvent<AppState> e)
         {
-           
+            Debug.Log("ApplicationStateChangeProgressChanged");
         }
 
         public void ApplicationStateChanged(StackOperationEvent<AppState> e)
         {
-            
+            Debug.Log("ApplicationStateChanged");
         }
     }
     

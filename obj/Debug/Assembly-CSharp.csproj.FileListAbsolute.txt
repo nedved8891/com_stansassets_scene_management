@@ -1,0 +1,2 @@
+D:\Git\com_stansassets_scene_management\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Git\com_stansassets_scene_management\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

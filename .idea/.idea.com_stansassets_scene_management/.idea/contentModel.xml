@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\PSV-PR-107\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\PSV-PR-107\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_com_stansassets_scene_management.1987722502.00" t="ExcludeRecursive" />
+    <e p="D:\Git\com_stansassets_scene_management" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="AppState.cs" t="Include" />
+          <e p="GameAppState.cs" t="Include" />
+          <e p="GameState.cs" t="Include" />
+          <e p="LandingController.cs" t="Include" />
+          <e p="MainMenuAppState.cs" t="Include" />
+        </e>
+      </e>
+      <e p="com_stansassets_scene_management.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="StansAssets.SceneManagement.Build.Editor.csproj" t="IncludeRecursive" />
+      <e p="StansAssets.SceneManagement.Build.Runtime.csproj" t="IncludeRecursive" />
+      <e p="StansAssets.SceneManagement.csproj" t="IncludeRecursive" />
+      <e p="StansAssets.SceneManagement.Editor.csproj" t="IncludeRecursive" />
+      <e p="StansAssets.SceneManagment.Samples.csproj" t="IncludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
