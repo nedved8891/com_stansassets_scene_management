@@ -3374,8 +3374,8 @@
         <option value="$PROJECT_DIR$/../HpDefAtkWoodMonsters/Assets/Scripts/Joystick/SettingsJoystick.cs" />
         <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/IApplicationStateStackVisualization.cs" />
         <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/ApplicationStateStackVisualization.cs" />
-        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Window/Tabs/SettingsTab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Window/Tabs/SettingsTab.cs" />
       </list>
     </option>
   </component>
@@ -3428,7 +3428,7 @@
       <workItem from="1608714469568" duration="2513000" />
       <workItem from="1608729006123" duration="11751000" />
       <workItem from="1608795441865" duration="15108000" />
-      <workItem from="1609142334379" duration="4321000" />
+      <workItem from="1609142334379" duration="5420000" />
     </task>
     <servers />
   </component>

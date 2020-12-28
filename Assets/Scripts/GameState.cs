@@ -43,6 +43,5 @@ public class GameState : MonoBehaviour
         State.RegisterState(AppState.MainMenu, new MainMenuAppState());
         State.RegisterState(AppState.Game, new GameAppState());
         
-        
     }
 }
