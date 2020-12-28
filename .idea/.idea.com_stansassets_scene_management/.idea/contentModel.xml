@@ -1,9 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\PSV-PR-107\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\PSV-PR-107\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_com_stansassets_scene_management.1987722502.00" t="ExcludeRecursive" />
-    <e p="D:\Git\com_stansassets_scene_management" t="IncludeRecursive">
+    <e p="C:\Users\Zver\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Zver\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_com_stansassets_scene_management.-1198429595.00" t="ExcludeRecursive" />
+    <e p="E:\Git\com.stansassets.scene-management\com.stansassets.scene-management\BuildConfigurator\Editor" t="Include">
+      <e p="AnalyzeSystemHelper.cs" t="Include" />
+      <e p="BuildConfigurationMenu.cs" t="Include" />
+      <e p="BuildConfigurationSettingsValidator.cs" t="Include" />
+      <e p="BuildConfigurationWindow.cs" t="Include" />
+      <e p="BuildScenesPreprocessor.cs" t="Include" />
+      <e p="BundleRuleBaseRevealed.cs" t="Include" />
+      <e p="Extensions" t="Include">
+        <e p="AddressableSceneAssetExtension.cs" t="Include" />
+        <e p="BuildConfigurationExtension.cs" t="Include" />
+        <e p="PlatformsConfigurationExtension.cs" t="Include" />
+      </e>
+      <e p="FindScenesDuplicateDependencies.cs" t="Include" />
+      <e p="StansAssets.SceneManagement.Build.Editor.asmdef" t="Include" />
+    </e>
+    <e p="E:\Git\com.stansassets.scene-management\com.stansassets.scene-management\BuildConfigurator\Runtime" t="Include">
+      <e p="AssemblyInfo.cs" t="Include" />
+      <e p="BuildConfiguration.cs" t="Include" />
+      <e p="BuildConfigurationSettings.cs" t="Include" />
+      <e p="BuildTargetRuntime.cs" t="Include" />
+      <e p="PlatformsConfiguration.cs" t="Include" />
+      <e p="SceneAssetInfo.cs" t="Include" />
+      <e p="StansAssets.SceneManagement.Build.Runtime.asmdef" t="Include" />
+    </e>
+    <e p="E:\Git\com.stansassets.scene-management\com.stansassets.scene-management\Editor" t="Include">
+      <e p="AssemblyInfo.cs" t="Include" />
+      <e p="Configs" t="Include">
+        <e p="SceneManagementPackage.cs" t="Include" />
+      </e>
+      <e p="Settings" t="Include">
+        <e p="SceneInfo.cs" t="Include" />
+        <e p="SceneManagementEditorMenu.cs" t="Include" />
+        <e p="SceneManagementSettings.cs" t="Include" />
+        <e p="SceneViewInfo.cs" t="Include" />
+        <e p="StartLandingAction.cs" t="Include" />
+      </e>
+      <e p="StansAssets.SceneManagement.Editor.asmdef" t="Include" />
+      <e p="Visualization" t="Include">
+        <e p="ApplicationStateStackVisualization.cs" t="Include" />
+        <e p="IApplicationStateDelegateVisualization.cs" t="Include" />
+        <e p="IApplicationStateStackVisualization.cs" t="Include" />
+        <e p="IApplicationStateVisualization.cs" t="Include" />
+        <e p="IReadOnlyApplicationStateStackVizualization.cs" t="Include" />
+        <e p="StateVisualization.cs" t="Include" />
+      </e>
+      <e p="Window" t="Include">
+        <e p="SceneManagementSettingsWindow.cs" t="Include" />
+        <e p="Tabs" t="Include">
+          <e p="SettingsTab.cs" t="Include" />
+          <e p="SettingsTab.uss" t="Include" />
+          <e p="SettingsTab.uxml" t="Include" />
+        </e>
+      </e>
+    </e>
+    <e p="E:\Git\com.stansassets.scene-management\com.stansassets.scene-management\Runtime" t="Include">
+      <e p="Core" t="Include">
+        <e p="SceneActionsQueue.cs" t="Include" />
+        <e p="SceneLoadService.cs" t="Include" />
+      </e>
+      <e p="Enums" t="Include">
+        <e p="SceneActionType.cs" t="Include" />
+        <e p="StackAction.cs" t="Include" />
+        <e p="StackOperation.cs" t="Include" />
+      </e>
+      <e p="Interfces" t="Include">
+        <e p="IApplicationStateDelegate.cs" t="Include" />
+        <e p="IAsyncOperation.cs" t="Include" />
+        <e p="IProgressReporter.cs" t="Include" />
+        <e p="ISceneDelegate.cs" t="Include" />
+        <e p="ISceneLoadService.cs" t="Include" />
+        <e p="ISceneManager.cs" t="Include" />
+        <e p="IScenePreloader.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="AsyncOperationHandleWrapper.cs" t="Include" />
+        <e p="AsyncOperationWrapper.cs" t="Include" />
+        <e p="ProgressListenerRequest.cs" t="Include" />
+        <e p="SceneAction.cs" t="Include" />
+        <e p="StackChangeEvent.cs" t="Include" />
+        <e p="StackEvent.cs" t="Include" />
+        <e p="StackOperationEvent.cs" t="Include" />
+      </e>
+      <e p="StansAssets.SceneManagement.asmdef" t="Include" />
+      <e p="Statis" t="Include">
+        <e p="AdditiveScenesLoader.cs" t="Include" />
+        <e p="AddressableAdditiveSceneLoader.cs" t="Include" />
+        <e p="AddressableSceneUnloader.cs" t="Include" />
+        <e p="DefaultAdditiveSceneLoader.cs" t="Include" />
+        <e p="SceneInfo.cs" t="Include" />
+      </e>
+      <e p="Utilities" t="Include">
+        <e p="ApplicationStateStack" t="Include">
+          <e p="ApplicationStateStack.cs" t="Include" />
+          <e p="IApplicationState.cs" t="Include" />
+          <e p="IApplicationStateStack.cs" t="Include" />
+          <e p="IReadOnlyApplicationStateStack.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+    <e p="E:\Git\com.stansassets.scene-management\com.stansassets.scene-management\Samples" t="Include">
+      <e p="Sample1" t="Include">
+        <e p="SampleExample.cs" t="Include" />
+      </e>
+      <e p="StansAssets.SceneManagment.Samples.asmdef" t="Include" />
+    </e>
+    <e p="E:\Git\com_stansassets_scene_management" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">

@@ -3343,12 +3343,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/27AABE10-6DF7-43FB-9D3F-CCFA6937F501/e6/78da8e38/IReadOnlyList`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/IReadOnlyApplicationStateStackVizualization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stansassets.plugins-dev-kit@1.0.1/Editor/UIToolkit/SettingsWindow/BaseTab.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/IApplicationStateDelegateVisualization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/StateVisualization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/ApplicationStateStackVisualization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/IApplicationStateStackVisualization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/IApplicationStateVisualization.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameAppState.cs" />
-      <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Window/Tabs/SettingsTab.cs" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Runtime/Utilities/ApplicationStateStack/IApplicationState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AppState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LandingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameAppState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuAppState.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Runtime/Utilities/ApplicationStateStack/IApplicationStateStack.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Runtime/Interfces/IApplicationStateDelegate.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Window/Ttest.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Window/Tabs/SettingsTab.uxml" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Window/Tabs/SettingsTab.uss" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/IApplicationStateDelegateVisualization.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/IApplicationStateVisualization.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/StateVisualization.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Runtime/Utilities/ApplicationStateStack/ApplicationStateStack.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/IReadOnlyApplicationStateStackVizualization.cs" />
+        <option value="$PROJECT_DIR$/../HpDefAtkWoodMonsters/Assets/Scripts/Joystick/SettingsJoystick.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/IApplicationStateStackVisualization.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Visualization/ApplicationStateStackVisualization.cs" />
+        <option value="$PROJECT_DIR$/../com.stansassets.scene-management/com.stansassets.scene-management/Editor/Window/Tabs/SettingsTab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1m3Fb0RYk2A184sWaC9OMBiOrJE" />
   <component name="ProjectViewState">
@@ -3360,6 +3389,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -3368,7 +3403,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -3377,7 +3412,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -3391,6 +3426,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608714438128</updated>
       <workItem from="1608714469568" duration="2513000" />
+      <workItem from="1608729006123" duration="11751000" />
+      <workItem from="1608795441865" duration="15108000" />
+      <workItem from="1609142334379" duration="4321000" />
     </task>
     <servers />
   </component>
@@ -3401,5 +3439,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608730821488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608730821488" />
   </component>
 </project>

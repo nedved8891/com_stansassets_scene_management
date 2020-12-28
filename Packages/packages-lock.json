@@ -17,7 +17,7 @@
       "url": "https://registry.npmjs.org"
     },
     "com.stansassets.scene-management": {
-      "version": "file:D:/Git/com.stansassets.scene-management/com.stansassets.scene-management",
+      "version": "file:E:/Git/com.stansassets.scene-management/com.stansassets.scene-management",
       "depth": 0,
       "source": "local",
       "dependencies": {

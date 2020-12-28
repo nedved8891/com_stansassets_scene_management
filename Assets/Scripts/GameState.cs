@@ -8,27 +8,29 @@ public class GameState : MonoBehaviour
 
     public class GameStateChangDelegate : IApplicationStateDelegate<AppState>
     {
-        public event Action OnApplicationStateChanged;
+        public event Action<StackOperationEvent<AppState>> OnApplicationStateChanged;
 
         public GameStateChangDelegate(IApplicationStateStack<AppState> stateStack)
         {
-            Debug.Log("GameStateChangDelegate");
-            stateStack.AddDelegate(this);
+            //Debug.Log("GameStateChangDelegate");
+            //stateStack.AddDelegate(this);
         }
 
         public void OnApplicationStateWillChanged(StackOperationEvent<AppState> e)
         {
-            Debug.Log("OnApplicationStateWillChanged");
+            //Debug.Log("OnApplicationStateWillChanged");
         }
 
         public void ApplicationStateChangeProgressChanged(float progress, StackChangeEvent<AppState> e)
         {
-            Debug.Log("ApplicationStateChangeProgressChanged");
+            //Debug.Log("ApplicationStateChangeProgressChanged");
         }
 
         public void ApplicationStateChanged(StackOperationEvent<AppState> e)
         {
-            Debug.Log("ApplicationStateChanged");
+            //Debug.Log("ApplicationStateChanged: " + e.State + " " + e.Operation + " " + e.OldStackValue[0] + " " + e.NewStackValue[0]);
+            
+           //OnApplicationStateChanged?.Invoke(e);
         }
     }
     
@@ -40,5 +42,7 @@ public class GameState : MonoBehaviour
 
         State.RegisterState(AppState.MainMenu, new MainMenuAppState());
         State.RegisterState(AppState.Game, new GameAppState());
+        
+        
     }
 }

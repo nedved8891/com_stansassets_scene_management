@@ -1,5 +1,6 @@
 ﻿public enum AppState
 {
     MainMenu,
-    Game
+    Game,
+    Pause
 }

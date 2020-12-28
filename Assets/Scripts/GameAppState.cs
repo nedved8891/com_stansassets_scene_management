@@ -1,43 +1,28 @@
-﻿using System;
-using StansAssets.SceneManagement;
+﻿using StansAssets.SceneManagement;
 using UnityEngine;
 
-namespace StansAssets.SceneManagement
+public class GameAppState : IApplicationState<AppState>
 {
-   public class GameAppState : IApplicationState<AppState>
+   private IApplicationState<AppState> _applicationStateImplementation;
+
+   public void ChangeState(StackChangeEvent<AppState> evt, IProgressReporter reporter)
    {
-      public delegate void ChangeStateDelegate(string name, string action);
-
-      public static ChangeStateDelegate OnChangeStateDelegate;
-      
-      private IApplicationState<AppState> _applicationStateImplementation;
-
-      public void ChangeState(StackChangeEvent<AppState> evt, IProgressReporter reporter)
+      switch (evt.Action)
       {
-         switch (evt.Action)
-         {
-            case StackAction.Added:
-               Debug.Log("StackAction.Added");
-               OnChangeStateDelegate?.Invoke("Game", "Added");
-               break;
-            case StackAction.Paused:
-               Debug.Log("StackAction.Paused");
-               OnChangeStateDelegate?.Invoke("Game", "Paused");
-               break;
-            case StackAction.Resumed:
-               OnChangeStateDelegate?.Invoke("Game", "Resumed");
-               Debug.Log("StackAction.Resumed");
-               break;
-            case StackAction.Removed:
-               Debug.Log("StackAction.Removed");
-               OnChangeStateDelegate?.Invoke("Game", "Removed");
-               break;
-            default:
-               Debug.Log("evt.Action not found");
-               break;
-         }
-         
-         reporter.SetDone();
+         case StackAction.Added:
+            Debug.Log("StackAction.Added: " + evt.State + " " + evt.Action);
+            break;
+         case StackAction.Paused:
+            Debug.Log("StackAction.Paused: "  + evt.State + " " + evt.Action);
+            break;
+         case StackAction.Resumed:
+            Debug.Log("StackAction.Resumed: "  + evt.State + " " + evt.Action);
+            break;
+         default:
+            Debug.Log("StackAction.Removed: " + evt.State + " " + evt.Action);
+            break;
       }
+      
+      reporter.SetDone();
    }
 }

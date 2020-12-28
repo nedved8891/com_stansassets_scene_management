@@ -9,7 +9,7 @@
     }
   ],
   "dependencies": {
-    "com.stansassets.scene-management": "file:D:/Git/com.stansassets.scene-management/com.stansassets.scene-management",
+    "com.stansassets.scene-management": "file:E:/Git/com.stansassets.scene-management/com.stansassets.scene-management",
     "com.unity.2d.animation": "3.2.6",
     "com.unity.2d.pixel-perfect": "2.0.4",
     "com.unity.2d.psdimporter": "2.1.6",
